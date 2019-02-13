@@ -1,0 +1,17 @@
+publicFn, .nav > ul > li, .demo {
+  border: 1px solid red;
+  background: red;
+  border-radius: 50%;
+  height: 200px; }
+
+.nav {
+  border: 1px solid red; }
+  .nav > ul {
+    background: green; }
+    .nav > ul > li {
+      width: 300px; }
+  .nav.aa {
+    width: 1px; }
+
+.demo {
+  width: 400px; }

@@ -1,0 +1,25 @@
+$border-width: 1px;
+publicFn {
+  border: 1px solid red;
+  background: red;
+  border-radius: 50%;
+  height: 200px;
+}
+
+.nav {
+  border: $border-width solid red;
+  > ul {
+    background: green;
+    > li {
+      width: 300px;
+      @extend publicFn;
+    }
+  }
+  &.aa{
+    width: 1px;
+  }
+}
+.demo {
+  width: 400px;
+  @extend publicFn;
+ }
